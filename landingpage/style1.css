@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  background-image: url("gym5.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+header {
+  width: 100%;
+  height: 50px;
+  color: white;
+  margin-top: -138px;
+  position: fixed;
+}
+nav {
+  width: 100%;
+  height: 67px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  position: fixed;
+}
+nav h1 span {
+  color: red;
+}
+nav h1 {
+  transition: 0.5s ease;
+  margin: 20px;
+}
+nav h1:hover {
+  cursor: pointer;
+  font-size: 45px;
+  transform: translateY(-20px);
+}
+.main {
+  margin: 20px;
+}
+.main a {
+  text-decoration: none;
+  color: white;
+  padding: 20px 20px;
+  font-size: 20px;
+}
+.main a:hover {
+  border-bottom: 3px solid rgb(224, 204, 19);
+  cursor: pointer;
+  font-size: 30px;
+}
+.Learn a {
+  text-decoration: none;
+  color: white;
+  padding: 8px 20px;
+  font-size: 20px;
+  background: red;
+  border-radius: 7px;
+  transition: 0.5s ease;
+}
+.Learn {
+  margin: 24px;
+}
+.Learn a:hover {
+  cursor: pointer;
+  font-size: 25px;
+  transform: translateY(-20px);
+  background: transparent;
+}
+.text {
+  margin-left: 50px;
+  color: white;
+  margin-top: 138px;
+  position: relative;
+  top: 160px;
+}
+.text h1 {
+  font-size: 55px;
+  transition: 0.5s ease;
+}
+.text h1:hover {
+  cursor: pointer;
+  font-size: 70px;
+  transform: translateY(-20px);
+}
+.text h1 span {
+  color: red;
+}
+.text p {
+  margin-top: 15px;
+  font-size: 20px;
+  margin-bottom: 28px;
+}
+.text button {
+  text-decoration: none;
+  color: white;
+  padding: 10px 20px;
+  font-size: 20px;
+  background: red;
+  border-radius: 7px;
+  transition: 0.5s ease;
+}
+.text button:hover {
+  cursor: pointer;
+  font-size: 30px;
+  transform: translateY(-20px);
+  background: transparent;
+}
+.fa {
+  position: relative;
+  top: 475px;
+  padding: 20px;
+  font-size: 30px;
+  width: 10px;
+  height: 10px;
+  text-align: center;
+  text-decoration: none;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.s-icon {
+  margin-left: 30px;
+  position: relative;
+  top: 50px;
+}
